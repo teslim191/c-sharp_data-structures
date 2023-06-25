@@ -30,7 +30,7 @@ namespace HelloWorld
 
             //scientific number
             float frequency = 3e2f;
-            Console.WriteLine("the frequency is about {0}", frequency);
+            //Console.WriteLine("the frequency is about {0}", frequency);
 
             long salary = 922337203685477580L;
             //Console.WriteLine(salary);
@@ -64,12 +64,12 @@ namespace HelloWorld
             //string surname = Console.ReadLine();
             //Console.WriteLine($"my surname is {surname}");
 
-            Console.WriteLine("how old are you?");
+            //Console.WriteLine("how old are you?");
             string ageNow = Console.ReadLine();
             long MyAge = Convert.ToInt64(ageNow);
-            Console.WriteLine("i am {0} years old",MyAge);
+            //Console.WriteLine("i am {0} years old",MyAge);
 
-            Console.WriteLine("what year were you born? ");
+            //Console.WriteLine("what year were you born? ");
             string yearBorn = Console.ReadLine();
             int yearBornInt = Convert.ToInt32(yearBorn);
 
@@ -78,7 +78,7 @@ namespace HelloWorld
             int presentYearInt = Convert.ToInt32(presentYear);
 
             int presentAge = presentYearInt - yearBornInt;
-            Console.WriteLine("i am {0} years old",presentAge);
+            //Console.WriteLine("i am {0} years old",presentAge);
 
             //math
             Math.Max(5, 10);
@@ -88,7 +88,8 @@ namespace HelloWorld
             Math.Round(6.88);
 
 
-            //string
+            
+            
 
         }
     }
